@@ -1,14 +1,8 @@
 <?php
-// function dbConnect() {
-//     define('DB_SERVER', 'localhost');
-//     define('DB_USERNAME', 'root');
-//     define('DB_PASSWORD', '');
-//     define('DB_NAME', 'php_blog');
-
     $connect = mysqli_connect("localhost", "root", "", "php_blog");
 
     if(!$connect) {
-        echo "<div class='pt-5'><h3 class='container alert alert-danger mt-5'>Cannot connect to the database</h3></div>";
+        echo "<div class='pt-5'><h3 class='container alert alert-danger mt-5'>Cannot connect to the myblogbase</h3></div>";
     }
 
     $sql = "SELECT * FROM myblog";
@@ -53,5 +47,4 @@
         header("Location: index.php?info=deleted");
         exit();
     }
-
 ?>

@@ -20,13 +20,13 @@ include("db.php");
                 <a class="navbar-brand text-white" href="index.php">
                     Home
                 </a>
-                <a class="btn btn-dark" data-bs-toggle="offcanvas" href="#myMenu" role="button" aria-controls="myMenu">
+                <a class="btn btn-success" data-bs-toggle="offcanvas" href="#myMenu" role="button" aria-controls="myMenu">
                     <i class="bi bi-list"></i>
                 </a>
 
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="myMenu" aria-labelledby="myMenuLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="myMenuLabel">PHP Blog</h5>
+                        <h5 class="offcanvas-title" id="myMenuLabel">My Blog</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -49,7 +49,7 @@ include("db.php");
                     <input type='text' name='title' placeholder='Title' class='form-control bg-light fw-bold'
                     value='$item[title]'>
                     <textarea name='content' placeholder='My content' class='form-control my-3 bg-light'>$item[content]</textarea>
-                    <button name='update' class='btn btn-primary float-end'>Update</button>
+                    <button name='update' class='btn btn-success float-end'>Update</button>
                 </form>";
             }
         ?>

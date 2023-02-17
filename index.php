@@ -53,7 +53,7 @@
                         Your post has been changed
                     </div>";
                 }else if($_REQUEST['info'] == "deleted") {
-                    echo "<div class='alert alert-danger' role='alert'>
+                    echo "<div class='alert alert-warning' role='alert'>
                         Your post has been deleted
                     </div>";
                 }
@@ -73,8 +73,8 @@
                                 <p class='card-text text-truncate'>
                                     $item[content]
                                 </p>
-                                <a href='view.php?id=$item[id]' class='btn btn-secondary'>
-                                    Read More <i class='bi bi-chevron-double-right'></i>
+                                <a href='view.php?id=$item[id]' class='btn btn-info'>
+                                    Read More <i class=''bi bi-warning'></i>
                                 </a>
                             </div>
                         </div>
