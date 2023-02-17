@@ -15,7 +15,7 @@ include("db.php");
 </head>
 <body>
     <header>
-        <nav class="navbar bg-dark fixed-top">
+        <nav class="navbar fixed-top" style="background-color: #DBA281;">
             <div class="container">
                 <a class="navbar-brand text-white" href="index.php">
                     Home

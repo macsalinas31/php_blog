@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg-dark fixed-top">
+        <nav class="navbar  fixed-top" style="background-color: #DBA281;">
             <div class="container">
                 <a class="navbar-brand text-white" href="index.php">
                     Home
@@ -26,7 +26,7 @@
 
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="myMenu" aria-labelledby="myMenuLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="myMenuLabel">PHP Blog</h5>
+                        <h5 class="offcanvas-title" id="myMenuLabel">My Blog</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
