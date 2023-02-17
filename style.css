@@ -1,0 +1,10 @@
+textarea {
+    height: 200px;
+}
+
+.card {
+    height: 9rem;
+}
+.card-body {
+    width: 18rem;
+}
