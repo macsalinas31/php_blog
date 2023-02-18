@@ -31,7 +31,7 @@
                     </div>
                     <div class="offcanvas-body">
                         <div>
-                            <a href="create.php" class="text-decoration-none">
+                            <a href="create.php" class="text-decoration-none" >
                                 Create a new post
                             </a>
                         </div>
